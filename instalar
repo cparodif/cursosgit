@@ -1,0 +1,26 @@
+cd /d/hd500gb/carpetaCompartida/git/2x2.es
+
+https://git-scm.com/download/win
+https://github.com/git-for-windows/git/releases/tag/v2.35.1.windows.2
+https://docs.github.com/es/communities
+
+instalo todo por defecto
+con vim
+git bash
+MINGW64
+
+cd d:
+cd hd500gb
+cd /d/carpeta
+
+$ git config --global user.name "cparodif"
+$ git config --global user.email "cparodif@mail.com"
+$ git config --global --list
+
+git init
+
+vim .gitignore
+.bak
+:wq
+
+git status
