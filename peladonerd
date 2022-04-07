@@ -1,0 +1,100 @@
+Flujo normal
+--------------------
+git checkout master
+git pull origin master
+git branch rama
+git chekout rama
+ll
+git branch
+vim index.html
+git add -A
+git commit -m "modifico index.html"
+git push origin rama
+git checkuot master
+git branch --merge
+git merge rama
+git push origin master
+------------------
+git clone https://github.com/cparodif/repositorio.git
+git log
+git diff
+git push origin master
+git pull origin master
+origin = mombre del repositorio remoto principal
+HEAD   = commit en el que está posicionado el repositorio
+------------------
+git branch rama
+git checkout rama
+git status
+git branch
+ll
+vim index.html
+git add -A
+git commit -m "Agregando código"
+git push -u origin rama
+git log
+git branch -a
+git checkout master
+git pull origin master
+git branch --merge
+git merge rama
+git push origin master
+git push origin --delete rama
+git branch -a
+git branch -d rama
+------------------------------
+ll
+vim index.html
+git status
+git add index.html
+git commit -m "Actualizo index.html"
+git log
+vim fuciones.js
+git status
+git checkout funciones.js
+git status
+vim funciones.js
+git add funciones.js
+git status
+git commit -amend
+git log --stat
+git checkout rama
+git log
+--------------------------------
+git cherry-pick a9898
+git log
+git checkout
+git log
+git reset --soft f3434
+git log
+git status
+git reset f3434
+git status
+git reset --hard f3434
+git log
+git status
+git reflog
+git diff a9898 f3434
+con amend se vuelve a un commit sobreescrito
+--------------------------
+En github
+crear repositorio +new repository
+En terminal
+git remote add origin git@github.com:cparodif/repositorio.git
+git log
+git push -u origin master
+git checkout rama
+git log
+git push - u origin rama
+------------------
+En github botones
+Compare & pull request
+Create pull request
+Review changes
+Megre pull request
+Confirm
+-----------------
+https://youtu.be/kEPF-MWGq1w Tutorial de GIT para principantes! - Usando la linea de comandos en Git
+https://youtu.be/7-JHoPyJy-Q Tutorial de GIT - Parte 2 / Arreglando tus errores con la linea de comandos y usando Github.com
+
+
